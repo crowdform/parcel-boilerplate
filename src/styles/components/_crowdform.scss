@@ -1,0 +1,13 @@
+.crowdform {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    &__logo {
+        font-size: 0;
+        display: block;
+        width: 200px;
+        height: 200px;
+        background: url('../images/cf.png') no-repeat;
+        background-size: contain;
+    }
+}
