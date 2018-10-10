@@ -1,23 +1,39 @@
 # Frontend Challenge
 
-Build this simple page using React. We're looking to see what you already know and how you approach it.
+Build this simple page using React. We're looking to see what you already know, as well as how you think through this challenge.
 
 It should be pixel perfect and coded with the fewest possible lines of clean code.
 
 ## Designs
 
-Built to a 1440px screen width, 1180px container width. This is the same as Bootstrap.
+Built to a 1440px screen width, 1180px container width. Which is the same as Bootstrap.
 
 Designs are here:
 https://invis.io/WGOI8NQ7MXZ#/324818770_Team
 
 Use the "Inspect" tool to get exact values (you'll need to be invited to the prototype by email for this).
 
-## CSS
+When you click "Read Bio" the text card slides up to reveal the bio.
 
-Use nested SCSS classes.
+## SCSS
 
-We use 
+Use nested SCSS classes (e.g. don't keep rewriting the same parent class, nest children within one main parent class for each component)
+
+Set font-size: 10px on the html tag. Then use rem for all values (e.g. 1rem = 10px, 4.5rem = 45px).
+
+We use a version of BEM (block element modifier) for our naming structure.
+
+.component__element-subElement--modifier
+
+For example:
+
+.item__header-subtitle--black
+
+Use variables for all colours and fonts.
+
+## HTML
+
+Use Bootstrap for containers, rows and columns.
 
 ## Setup
 
